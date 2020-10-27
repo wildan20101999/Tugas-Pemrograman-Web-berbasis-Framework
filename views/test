@@ -1,0 +1,17 @@
+<ul>
+        <%for (var i in data.pemrograman) { %>
+            <li><%= data.pemrograman[i] %></li>
+        <% } %>
+    </ul>
+    <table>
+        <tr>
+            <th>NIM</th>
+            <th>NAMA</th>
+        </tr>
+        <% for (var i in data.mahasiswa) } %>
+            <tr>
+                <td><%= data.mahasiswa[i].nim %></td>
+                <td><%= data.mahasiswa[i].nama %></td>
+            </tr>
+        <% } %>
+    </table>
